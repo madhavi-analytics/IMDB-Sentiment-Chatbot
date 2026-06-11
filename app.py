@@ -6,8 +6,7 @@ model = joblib.load("imdb_model.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 
 # Page title
-st.title("🎬 MovieMind AI Chatbot")
-
+st.title("🎬 IMDb Sentiment Chatbot AI")
 st.write("Talk to the movie review bot!")
 
 # User input
@@ -40,3 +39,4 @@ else:
     st.error(
         f"😞 Negative Review\n\nConfidence: {conf:.0f}%"
     )
+    
