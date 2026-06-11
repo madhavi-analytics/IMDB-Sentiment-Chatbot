@@ -1,7 +1,7 @@
 # IMDB-Sentiment-Chatbot
 
 ## 📌 Project Overview
-MovieMind AI is an NLP-powered chatbot that analyzes IMDb movie reviews and predicts whether the sentiment is **Positive 😊** or **Negative 😞** in real time.
+This project was initially developed as an NLP sentiment analysis system and later extended into a chatbot-based movie review prediction application. The chatbot analyzes IMDb movie reviews and predicts whether the sentiment is Positive 😊 or Negative 😞 in real time using Natural Language Processing (NLP) and Machine Learning techniques.
 
 The chatbot uses **Natural Language Processing (NLP)** and **Machine Learning** techniques to understand movie review text and provide sentiment predictions with confidence scores.
 
