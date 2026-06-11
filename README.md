@@ -90,7 +90,7 @@ Why Naive Bayes?
 
 **Bot:**  
 > 😊 Positive Review  
-> Confidence: 78%
+> Confidence: 90%
 
 **User:**  
 > Waste movie, boring story
