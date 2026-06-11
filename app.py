@@ -28,7 +28,7 @@ if user_review:
     with st.chat_message("assistant"):
 
         if prediction[0] == 1:
-    conf = min(confidence[0][1] * 100, 85)
+    conf = min(confidence[0][1] * 100, 90)
 
     st.success(
         f"😊 Positive Review\n\nConfidence: {conf:.0f}%"
