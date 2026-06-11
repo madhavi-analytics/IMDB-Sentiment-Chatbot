@@ -27,16 +27,15 @@ if user_review:
     with st.chat_message("assistant"):
 
         if prediction[0] == 1:
-    conf = max(90, min(confidence[0][1] * 100, 98))
+            conf = max(90, min(confidence[0][1] * 100, 98))
 
-    st.success(
-        f"😊 Positive Review\n\nConfidence: {conf:.0f}%"
-    )
+            st.success(
+                f"😊 Positive Review\n\nConfidence: {conf:.0f}%"
+            )
 
-else:
-    conf = max(50, min(confidence[0][0] * 100, 70))
+        else:
+            conf = max(50, min(confidence[0][0] * 100, 70))
 
-    st.error(
-        f"😞 Negative Review\n\nConfidence: {conf:.0f}%"
-    )
-    
+            st.error(
+                f"😞 Negative Review\n\nConfidence: {conf:.0f}%"
+            )
